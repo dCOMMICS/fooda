@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-section.hero {
+/* section.hero {
     @apply grid; 
     grid-template-columns: .4r .6fr;
-}
+} */

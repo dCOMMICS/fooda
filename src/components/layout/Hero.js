@@ -3,7 +3,7 @@ import Right from "../Icons/right";
 
 export default function Hero() {
     return (
-        <section className="hero">
+        <section className="grid">
             <div className="py-12">
                 <h1 className="text-4xl font-semibold">Fries Worth the Hype!</h1>
                 <p className="my-4 text-gray-500">Step into Fry Heaven, Where Every Bite is a Perfectly Crispy, Golden Experience That Keeps You Coming Back for More!</p>
@@ -28,6 +28,13 @@ export default function Hero() {
                     layout={'fill'}
                     objectFit={'contain'}
                 />
+
+                {/* <Image 
+                    src="/fries.jpg" 
+                    alt="hotfries"
+                    fill // This replaces the `layout="fill"`
+                    style={{ objectFit: 'cover' }} // Use CSS for object-fit
+                /> */}
             </div>
 
 
