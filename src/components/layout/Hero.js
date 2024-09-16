@@ -24,7 +24,7 @@ export default function Hero() {
 
             <div className=" relative">
 
-                {/* check on image */}
+                {/* check on image  */}
                 <Image src={'/fries8.jpg'} alt={'hotfries'}
                     layout={'fill'}
                     objectFit={'contain'}
